@@ -5,5 +5,5 @@ const addThreeNumbers = (a, b, c) => {
   return a + b + c
 }
 
-module.exports = addTwoNumbers
-module.exports = addThreeNumbers
+exports.addTwoNumbers = addTwoNumbers
+exports.addThreeNumbers = addThreeNumbers
