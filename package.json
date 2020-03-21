@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "standard && jest"
+    "test": "semistandard && jest"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,9 @@
   "homepage": "https://github.com/cesgarpas/minimal-nodejs-config#readme",
   "devDependencies": {
     "jest": "^25.1.0",
-    "standard": "^14.3.3"
+    "semistandard": "^14.3.3"
   },
-  "standard": {
+  "semistandard": {
     "ignore": [
       "/tests/**"
     ]
