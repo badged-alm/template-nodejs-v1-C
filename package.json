@@ -18,7 +18,7 @@
   "homepage": "https://github.com/cesgarpas/minimal-nodejs-config#readme",
   "devDependencies": {
     "jest": "^25.1.0",
-    "semistandard": "^14.3.3"
+    "semistandard": "^14.2.0"
   },
   "semistandard": {
     "ignore": [
