@@ -1,4 +1,4 @@
-# Node.js Minimal Project Configuration Example 
+# C-Level Node.js Project Configuration Example 
 ![Node.js CI](https://github.com/cesgarpas/minimal-nodejs-config/workflows/Node.js%20CI/badge.svg?branch=master)
 <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-semistandard-brightgreen.svg" alt="Standard - JavaScript Style Guide"></a>
 
