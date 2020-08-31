@@ -1,10 +1,12 @@
 {
-  "name": "template-nodejs-v1-C",
+  "name": "template-nodejs-v1-c",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "semistandard && jest"
+    "test": "semistandard && jest",
+    "lint": "semistandard",
+    "lint-fix": "semistandard --fix"
   },
   "repository": {
     "type": "git",
