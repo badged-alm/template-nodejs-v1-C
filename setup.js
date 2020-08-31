@@ -5,7 +5,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-const repoName = 'template-nodejs-v1-C';
+const templateRepoName = 'badged-alm/template-nodejs-v1-C';
 let success = false;
 
 try {
@@ -25,7 +25,7 @@ try {
 
       // README.md
       let readme = fs.readFileSync('README.md', 'utf8');
-      readme = readme.split(repoName).join(githubRepo);
+      readme = readme.split(templateRepoName).join(githubRepo);
 
       // Write files and close
       fs.writeFileSync('package.json', JSON.stringify(packageJson, null, 2), 'utf8');
